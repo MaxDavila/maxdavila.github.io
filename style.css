@@ -6,21 +6,42 @@ html, body {
   height: 4em;
   background-color: black;
   color: white;
+  width: 100%;
+  text-align: center;
 }
 
 .navbar ul {
-  margin: 0 auto;
-  margin-right: 30%;
-  margin-left: 30%;
+  display: inline-block;
   line-height: 4em;
   text-align: center;
 }
+
 .navbar ul li {
   display: inline-block;
-  margin-right: 5em;
 }
 
 .navbar ul li:hover {
   color: red;
 }
+
+
+.main{ 
+  width: 30%;
+  margin-left: 20%;
+}
+
+.main li {
+  margin-right: 5em;
+}
+
+
+.social-media {
+  width: 30%;
+  float: right;
+}
+
+.social-media li {
+  margin-right: 3em;
+}
+
 
