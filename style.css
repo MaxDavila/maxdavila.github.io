@@ -1,0 +1,26 @@
+html, body {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  height: 4em;
+  background-color: black;
+  color: white;
+}
+
+.navbar ul {
+  margin: 0 auto;
+  margin-right: 30%;
+  margin-left: 30%;
+  line-height: 4em;
+  text-align: center;
+}
+.navbar ul li {
+  display: inline-block;
+  margin-right: 5em;
+}
+
+.navbar ul li:hover {
+  color: red;
+}
+
