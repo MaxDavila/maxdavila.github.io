@@ -106,8 +106,15 @@ img {
   color: rgb(129, 123, 123);
 }
 
-.row div{
+.well{
   display: inline-block;
   width: 33%;
-  padding: 1em;
+  margin: 1em;
+  padding: .5em;
+  background-color: white;
+}
+
+.well p {
+  height: 2em;
+  line-height: 2em;
 }
