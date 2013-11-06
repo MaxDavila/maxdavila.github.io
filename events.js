@@ -1,7 +1,11 @@
 $('document').ready(function(){
-  // bindEvent('click','')
+  bindDownArrow();
 });
 
-function bindEvent(event, selector, callback) {
-  
-}
+function bindDownArrow() {
+  $('.fa-arrow-circle-down').on("click", function(){
+    $('body,html').animate({
+      scrollTop: $('#portfolio').offset().top
+    }, 600);
+    });
+};

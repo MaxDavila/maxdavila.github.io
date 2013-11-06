@@ -67,11 +67,12 @@ img {
   margin-bottom: .2em;
 }
 
+
 /*about */
 #about {
   background-color: white;
   padding: 2em;
-  height: 28em;
+  min-height: 35em;
   -moz-box-shadow:    1px 1px 5px 1px #ccc;
   -webkit-box-shadow: 1px 1px 5px 1px #ccc;
   box-shadow:         1px 1px 5px 1px #ccc;
@@ -86,8 +87,13 @@ img {
   width: 50%;
 }
 
+#about div:nth-child(3) {
+  margin-top: 3em;
+}
+
 #about div:nth-child(2) p{
   margin-top: 1em;
+  line-height: 1.5em;
 }
 
 /* portfolio container*/
@@ -114,15 +120,24 @@ img {
   background-color: white;
 }
 
-.well div:nth-child(2) {
+.info {
   padding-top: 1em;
+  height: 3em;
+  
 }
-.well p {
+.info div {
   display: inline-block;
-  height: 2em;
-  line-height: 2em;
 }
 
+.info div:nth-child(1) {
+  float:left;
+}
+
+
+/*well arrow*/
+.info div:nth-child(2) {
+  float:right;
+}
 .fa-chevron-right {
   float: right;
   color: rgb(201, 201, 201);
