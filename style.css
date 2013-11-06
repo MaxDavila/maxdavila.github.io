@@ -7,14 +7,10 @@ body {
   color: rgb(129, 123, 123);
 }
 
-hr {
-  border-width: 1px 0px;
-  border-color: #FFF transparent #F2F2F2 transparent;
-  width: 60%;
-  margin-bottom: 2em;
-  margin-top: 2em;
-}
 
+img {
+  max-width: 100%;
+}
 /*navbar*/
 
 .navbar {
@@ -60,6 +56,7 @@ hr {
 
 /*main container*/
 #container {
+  width: 100%;
   float: left;
   text-align: center;
 }
@@ -93,3 +90,24 @@ hr {
   margin-top: 1em;
 }
 
+/* portfolio container*/
+
+#porfolio {
+  float: left;
+  width: 100%;
+  height: 28em;
+}
+
+.fa-arrow-circle-down {
+  color: rgb(201, 201, 201);
+}
+
+.fa-arrow-circle-down:hover {
+  color: rgb(129, 123, 123);
+}
+
+.row div{
+  display: inline-block;
+  width: 33%;
+  padding: 1em;
+}
