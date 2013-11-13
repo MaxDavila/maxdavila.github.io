@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  background-color: #ecf0f1; /* other color rgb(88, 84, 84) #ecf0f1;*/
+  background-color: #DADEDF; /* other color rgb(88, 84, 84) #ecf0f1;*/
   color: #ecf0f1;
 }
 
@@ -14,6 +14,11 @@ p {
 
 img {
   max-width: 100%;
+  -moz-box-shadow:    1px 1px 5px 1px #868686;
+  -webkit-box-shadow: 1px 1px 5px 1px #868686;
+  box-shadow:         1px 1px 5px 1px #868686;
+  
+
 }
 
 a {
@@ -23,50 +28,8 @@ a {
 a:hover {
   color:rgb(201, 201, 201);
 }
-/*navbar*/
-
-/*.navbar {
-  height: 4em;
-  background-color: black;
-  color: white;
-  width: 100%;
-  text-align: center;
-}
-
-.navbar ul {
-  display: inline-block;
-  line-height: 4em;
-  text-align: center;
-}
-
-.navbar ul li {
-  cursor: pointer;
-  display: inline-block;
-}
-
-.navbar ul li:hover {
-  color: red;
-}
 
 
-.main{ 
-  width: 30%;
-  margin-left: 20%;
-}
-
-.main li {
-  margin-right: 5em;
-}
-
-.social-media {
-  width: 30%;
-  float: right;
-}
-
-.social-media li {
-  margin-right: 3em;
-}
-*/
 /*main container*/
 #container {
   width: 100%;
@@ -86,7 +49,7 @@ a:hover {
   min-height: 50em;
   width: 100%;
   float: left;
-  background-color: rgb(88, 84, 84);
+  background-color: #222;
   -moz-box-shadow:    1px 1px 5px 1px #ccc;
   -webkit-box-shadow: 1px 1px 5px 1px #ccc;
   box-shadow:         1px 1px 5px 1px #ccc;
@@ -110,7 +73,7 @@ a:hover {
 }
 
 #about div:nth-child(3) a:nth-child(2){
-  margin: 0 2.7em 0 2.5em;
+  margin: 0 3.4em 0 2.5em;
 }
 
 /* portfolio container*/
@@ -123,11 +86,14 @@ a:hover {
 }
 #portfolio h1{
   margin: 1em;
-  color: black;
+  color: #222;
 }
+
+/*full projec title */
+
 .fa-arrow-circle-down {
   cursor: pointer;
-  color: rgb(129, 123, 123);
+  color: rgb(172, 172, 172);
 }
 
 .fa-arrow-circle-down:hover {
@@ -139,11 +105,15 @@ a:hover {
   width: 33%;
   margin: 1em;
   padding: .5em;
-  background-color: white;
+  background-color: #DADEDF;
   cursor: pointer;
+  color: black;
 }
 
-
+.well div:nth-child(2) p {
+  margin-top: 1em;
+  font-weight: 600;
+}
 
 .info {
   padding-top: 1em;
@@ -180,13 +150,23 @@ a:hover {
   width: 100%;
 }
 
+.project-title h1{
+  color: white !important;
+  margin: 1em 0 .5em 0;
+}
+
 .well-gray {
   display: inline-block;
   width: 33%;
   margin: 1em;
   padding: .5em;
   background-color: white;
-  background-color: rgb(65, 65, 65);
+  background-color: #222;
+}
+
+.well-gray div:nth-child(1) img {
+  box-shadow: none;
+
 }
 
 .project-description p {

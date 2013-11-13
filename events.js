@@ -18,12 +18,12 @@ function scrollToSelector(event, selector) {
 
 function bindWells() {
   $('.well').hover(function(){
-    $(this).nextAll('.well').stop().animate({ opacity: '0.5' }, 500);
-    $(this).prevAll('.well').stop().animate({ opacity: '0.5' }, 500);
+    $(this).nextAll('.well').stop().animate({ opacity: '0.5' }, 400);
+    $(this).prevAll('.well').stop().animate({ opacity: '0.5' }, 400);
 
   }, function(){
-    $(this).nextAll('.well').stop().animate({ opacity: '1' }, 500);
-    $(this).prevAll('.well').stop().animate({ opacity: '1' }, 500);
+    $(this).nextAll('.well').stop().animate({ opacity: '1' }, 400);
+    $(this).prevAll('.well').stop().animate({ opacity: '1' }, 400);
   });
 }
 
