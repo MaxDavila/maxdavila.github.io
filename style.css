@@ -3,20 +3,29 @@ html, body {
 }
 
 body {
-  background-color: #ecf0f1;
-  color: rgb(129, 123, 123);
+  background-color: #ecf0f1; /* other color rgb(88, 84, 84) #ecf0f1;*/
+  color: #ecf0f1;
 }
 
 p {
   line-height: 1.5em;
+  letter-spacing: .055em;
 }
 
 img {
   max-width: 100%;
 }
+
+a {
+  color: rgb(172, 172, 172);
+}
+
+a:hover {
+  color:rgb(201, 201, 201);
+}
 /*navbar*/
 
-.navbar {
+/*.navbar {
   height: 4em;
   background-color: black;
   color: white;
@@ -57,7 +66,7 @@ img {
 .social-media li {
   margin-right: 3em;
 }
-
+*/
 /*main container*/
 #container {
   width: 100%;
@@ -66,8 +75,8 @@ img {
 }
 
 #container h1 {
-  font-size: 3em;
-  margin-top: 1em;
+  font-size: 3.7em;
+  margin-top: 2em;
   margin-bottom: .2em;
 }
 
@@ -77,7 +86,7 @@ img {
   min-height: 50em;
   width: 100%;
   float: left;
-  background-color: white;
+  background-color: rgb(88, 84, 84);
   -moz-box-shadow:    1px 1px 5px 1px #ccc;
   -webkit-box-shadow: 1px 1px 5px 1px #ccc;
   box-shadow:         1px 1px 5px 1px #ccc;
@@ -100,8 +109,8 @@ img {
   margin: 4em 0 8em 0;
 }
 
-#about div:nth-child(3) i:nth-child(2){
-  margin: 0 1.2em 0 1em;
+#about div:nth-child(3) a:nth-child(2){
+  margin: 0 2.7em 0 2.5em;
 }
 
 /* portfolio container*/
@@ -114,14 +123,15 @@ img {
 }
 #portfolio h1{
   margin: 1em;
+  color: black;
 }
 .fa-arrow-circle-down {
   cursor: pointer;
-  color: rgb(201, 201, 201);
+  color: rgb(129, 123, 123);
 }
 
 .fa-arrow-circle-down:hover {
-  color: rgb(129, 123, 123);
+  color: rgb(201, 201, 201);
 }
 
 .well{

@@ -10,6 +10,7 @@ function bindDownArrow() {
 }
 
 function scrollToSelector(event, selector) {
+    $(this).show()
     $('body,html').animate({
       scrollTop: event.data.selector.offset().top
     }, 600);
