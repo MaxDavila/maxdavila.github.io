@@ -1,5 +1,6 @@
 html, body {
   font-family: 'Lato', sans-serif;
+  font-weight: 100;
 }
 
 body {
@@ -23,10 +24,11 @@ img {
 
 a {
   color: rgb(172, 172, 172);
+  text-decoration: none;
 }
 
 a:hover {
-  color:rgb(201, 201, 201);
+  color:#e67e22;
 }
 
 
@@ -86,7 +88,8 @@ a:hover {
 }
 #portfolio h1{
   margin: 1em;
-  color: #222;
+  color: #7E7E7E;
+  font-weight: 400;
 }
 
 /*full projec title */
@@ -113,6 +116,7 @@ a:hover {
 .well div:nth-child(2) p {
   margin-top: 1em;
   font-weight: 600;
+  color: #4D4D4D;
 }
 
 .info {
@@ -151,6 +155,7 @@ a:hover {
 }
 
 .project-title h1{
+  font-weight: 100 !important;
   color: white !important;
   margin: 1em 0 .5em 0 !important;
 }
@@ -173,6 +178,7 @@ a:hover {
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 2em;
+  color: rgb(172, 172, 172);
 }
 
 .full-project {
@@ -181,9 +187,10 @@ a:hover {
 
 footer {
   margin: 0 auto;
+  margin-top: 5em;
+  margin-bottom: 2em;
   float: left;
   width: 100%;
-  margin-top: 3em;
-  margin-bottom: 2em;
   text-align: center;
+  color: black;
 }
