@@ -181,6 +181,13 @@ a:hover {
   color: rgb(172, 172, 172);
 }
 
+.project-description a {
+  color:#e67e22;
+}
+.project-description a:hover {
+  color: #C9874C;
+}
+
 .full-project {
   display: none;
 }
