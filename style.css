@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  background-color: #ecf0f1; /* other color rgb(88, 84, 84) #ecf0f1;*/
+  background-color: #DADEDF; /* other color rgb(88, 84, 84) #ecf0f1;*/
   color: #ecf0f1;
 }
 
@@ -14,6 +14,11 @@ p {
 
 img {
   max-width: 100%;
+  -moz-box-shadow:    1px 1px 5px 1px #868686;
+  -webkit-box-shadow: 1px 1px 5px 1px #868686;
+  box-shadow:         1px 1px 5px 1px #868686;
+  
+
 }
 
 a {
@@ -86,7 +91,7 @@ a:hover {
   min-height: 50em;
   width: 100%;
   float: left;
-  background-color: rgb(88, 84, 84);
+  background-color: #222;
   -moz-box-shadow:    1px 1px 5px 1px #ccc;
   -webkit-box-shadow: 1px 1px 5px 1px #ccc;
   box-shadow:         1px 1px 5px 1px #ccc;
@@ -110,7 +115,7 @@ a:hover {
 }
 
 #about div:nth-child(3) a:nth-child(2){
-  margin: 0 2.7em 0 2.5em;
+  margin: 0 3.4em 0 2.5em;
 }
 
 /* portfolio container*/
@@ -123,11 +128,11 @@ a:hover {
 }
 #portfolio h1{
   margin: 1em;
-  color: black;
+  color: #222;
 }
 .fa-arrow-circle-down {
   cursor: pointer;
-  color: rgb(129, 123, 123);
+  color: rgb(172, 172, 172);
 }
 
 .fa-arrow-circle-down:hover {
@@ -139,11 +144,15 @@ a:hover {
   width: 33%;
   margin: 1em;
   padding: .5em;
-  background-color: white;
+  background-color: #DADEDF;
   cursor: pointer;
+  color: black;
 }
 
-
+.well div:nth-child(2) p {
+  margin-top: 1em;
+  font-weight: 600;
+}
 
 .info {
   padding-top: 1em;
