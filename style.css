@@ -75,7 +75,7 @@ a:hover {
 }
 
 #about div:nth-child(3) a:nth-child(2){
-  margin: 0 1em 0 2em;
+  margin: 0 0 0 2em;
 }
 
 /* portfolio container*/
